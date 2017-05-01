@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+Code by G2N1337 for 2D Platformer with 3D or 2D branches
+Original from: https://github.com/G2N1337/2D-Platformer
+Copyright © 2017
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
