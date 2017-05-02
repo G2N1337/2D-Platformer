@@ -17,7 +17,6 @@ public class Main : MonoBehaviour {
 	private int pickup;
 	[Header("UI")]
 	public Text text;
-	private string a;
 	[Header("Порталы")]
 	public int sceneNumber;
 	public int maxPickups;
@@ -50,8 +49,7 @@ public class Main : MonoBehaviour {
 			portal.SetActive(true);
 		}
 		// Text
-		a = GameObject.Find ("Player1").GetComponent<Main>().pickup.ToString();
-		text.text = "Очков у вас: "+a;
+		text.text = "Очков у вас: "+pickup.ToString();
 		// RESTART
 		if (Input.GetKeyDown(KeyCode.R)) {
 			Application.LoadLevel (Application.loadedLevel);
