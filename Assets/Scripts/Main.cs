@@ -1,6 +1,7 @@
 /*
 Code by G2N1337 for 2D Platformer with 3D or 2D branches
 Original from: https://github.com/G2N1337/2D-Platformer
+Creator: vk.com/yanduditsky
 Copyright © 2017
 */
 using System.Collections;
